@@ -12,8 +12,8 @@ import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-@_hasMissingDesignatedInitializers public class Joystick {
-  public static let shared: JoystickSDK.Joystick
+public class Joystick {
+  public init(rootViewController: UIKit.UIViewController)
   public func connect(to host: Swift.String)
   public func disconnect()
   @objc deinit

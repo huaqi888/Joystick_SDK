@@ -43,6 +43,13 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "JoystickSDK"
+      },
+      {
+        "kind": "Import",
         "name": "Combine",
         "printedName": "Combine",
         "declKind": "Import",
@@ -54,55 +61,31 @@
         "printedName": "Joystick",
         "children": [
           {
-            "kind": "Var",
-            "name": "shared",
-            "printedName": "shared",
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rootViewController:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Joystick",
                 "printedName": "JoystickSDK.Joystick",
                 "usr": "s:11JoystickSDK0A0C"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
               }
             ],
-            "declKind": "Var",
-            "usr": "s:11JoystickSDK0A0C6sharedACvpZ",
-            "mangledName": "$s11JoystickSDK0A0C6sharedACvpZ",
+            "declKind": "Constructor",
+            "usr": "s:11JoystickSDK0A0C18rootViewControllerACSo06UIViewE0C_tcfc",
+            "mangledName": "$s11JoystickSDK0A0C18rootViewControllerACSo06UIViewE0C_tcfc",
             "moduleName": "JoystickSDK",
-            "static": true,
             "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "HasStorage",
               "AccessControl"
             ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Joystick",
-                    "printedName": "JoystickSDK.Joystick",
-                    "usr": "s:11JoystickSDK0A0C"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11JoystickSDK0A0C6sharedACvgZ",
-                "mangledName": "$s11JoystickSDK0A0C6sharedACvgZ",
-                "moduleName": "JoystickSDK",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "get"
-              }
-            ]
+            "init_kind": "Designated"
           },
           {
             "kind": "Function",
@@ -157,8 +140,31 @@
         "moduleName": "JoystickSDK",
         "declAttributes": [
           "AccessControl"
-        ],
-        "hasMissingDesignatedInitializers": true
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "JoystickSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "JoystickSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "JoystickSDK"
       },
       {
         "kind": "Import",
