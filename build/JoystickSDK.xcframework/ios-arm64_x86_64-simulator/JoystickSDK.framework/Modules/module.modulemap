@@ -1,11 +1,4 @@
 framework module JoystickSDK {
-  umbrella header "JoystickSDK-umbrella.h"
-
-  export *
-  module * { export * }
-}
-
-module JoystickSDK.Swift {
   header "JoystickSDK-Swift.h"
   requires objc
 }
