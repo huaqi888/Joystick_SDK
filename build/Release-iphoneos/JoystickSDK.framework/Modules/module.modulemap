@@ -1,0 +1,4 @@
+framework module JoystickSDK {
+  header "JoystickSDK-Swift.h"
+  requires objc
+}
