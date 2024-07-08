@@ -61,36 +61,60 @@
         "printedName": "Joystick",
         "children": [
           {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(rootViewController:)",
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Joystick",
                 "printedName": "JoystickSDK.Joystick",
                 "usr": "s:11JoystickSDK0A0C"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UIViewController",
-                "printedName": "UIKit.UIViewController",
-                "usr": "c:objc(cs)UIViewController"
               }
             ],
-            "declKind": "Constructor",
-            "usr": "s:11JoystickSDK0A0C18rootViewControllerACSo06UIViewE0C_tcfc",
-            "mangledName": "$s11JoystickSDK0A0C18rootViewControllerACSo06UIViewE0C_tcfc",
+            "declKind": "Var",
+            "usr": "s:11JoystickSDK0A0C6sharedACvpZ",
+            "mangledName": "$s11JoystickSDK0A0C6sharedACvpZ",
             "moduleName": "JoystickSDK",
+            "static": true,
             "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
               "AccessControl"
             ],
-            "init_kind": "Designated"
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Joystick",
+                    "printedName": "JoystickSDK.Joystick",
+                    "usr": "s:11JoystickSDK0A0C"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11JoystickSDK0A0C6sharedACvgZ",
+                "mangledName": "$s11JoystickSDK0A0C6sharedACvgZ",
+                "moduleName": "JoystickSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
           },
           {
             "kind": "Function",
             "name": "connect",
-            "printedName": "connect(to:)",
+            "printedName": "connect(to:from:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -102,11 +126,17 @@
                 "name": "String",
                 "printedName": "Swift.String",
                 "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
               }
             ],
             "declKind": "Func",
-            "usr": "s:11JoystickSDK0A0C7connect2toySS_tF",
-            "mangledName": "$s11JoystickSDK0A0C7connect2toySS_tF",
+            "usr": "s:11JoystickSDK0A0C7connect2to4fromySS_So16UIViewControllerCtF",
+            "mangledName": "$s11JoystickSDK0A0C7connect2to4fromySS_So16UIViewControllerCtF",
             "moduleName": "JoystickSDK",
             "declAttributes": [
               "AccessControl"
@@ -140,7 +170,8 @@
         "moduleName": "JoystickSDK",
         "declAttributes": [
           "AccessControl"
-        ]
+        ],
+        "hasMissingDesignatedInitializers": true
       },
       {
         "kind": "Import",
@@ -798,7 +829,7 @@
       "kind": "StringLiteral",
       "offset": 280,
       "length": 41,
-      "value": "\"连接状态不稳定，重新连接中\""
+      "value": "\"连接状态已断开，重新连接中\""
     },
     {
       "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/JoystickViewModel.swift",
@@ -811,8 +842,8 @@
       "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/JoystickViewModel.swift",
       "kind": "BooleanLiteral",
       "offset": 765,
-      "length": 4,
-      "value": "true"
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/KeyCode.swift",
