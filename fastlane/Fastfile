@@ -1,0 +1,48 @@
+# This file contains the fastlane.tools configuration
+# You can find the documentation at https://docs.fastlane.tools
+#
+# For a list of all available actions, check out
+#
+#     https://docs.fastlane.tools/actions
+#
+# For a list of all available plugins, check out
+#
+#     https://docs.fastlane.tools/plugins/available-plugins
+#
+
+# Uncomment the line if you want fastlane to automatically update itself
+# update_fastlane
+
+default_platform(:ios)
+
+version_file = "../.version"
+podspec_file = "../JoystickSDK.podspec"
+version = File.read(version_file)
+
+platform :ios do
+
+    # 示例：运行 lint 和 push 之前更新版本号
+  lane :release_pod do
+    update_podspec_version
+    add_tag
+    sh "pod trunk push JoystickSDK.podspec --allow-warnings --verbose"
+  end
+
+  private_lane :add_tag do
+    UI.message("local add git tag #{version}")
+    add_git_tag(
+      tag: "#{version}"
+    )
+    UI.message("push git tag #{version}")
+    `git push origin #{version}`
+  end
+
+  private_lane :update_podspec_version do
+    UI.message("Setting podspec version to #{version}")
+    # 动态更新 podspec 文件
+    content = File.read(podspec_file)
+    new_content = content.gsub(/spec.version\s+=\s+\".*\"/, "spec.version      = \"#{version}\"")
+    File.open(podspec_file, "w") { |file| file.puts new_content }
+  end
+
+end
