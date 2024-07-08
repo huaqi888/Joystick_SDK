@@ -25,7 +25,7 @@ platform :ios do
   lane :release_pod do
     update_podspec_version
     add_tag
-    sh "pod trunk push JoystickSDK.podspec --allow-warnings --verbose"
+    sh "pod trunk push ../JoystickSDK.podspec --allow-warnings --verbose"
   end
 
   private_lane :add_tag do
