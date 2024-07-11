@@ -277,6 +277,16 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "JoystickSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Combine",
         "printedName": "Combine",
         "declKind": "Import",
@@ -1507,6 +1517,20 @@
       "offset": 550,
       "length": 1,
       "value": "1"
+    },
+    {
+      "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/LandscapeNavigationController.swift",
+      "kind": "StringLiteral",
+      "offset": 125,
+      "length": 29,
+      "value": "\"JoystickSDK.LandscapeNavigationController\""
+    },
+    {
+      "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/LandscapeNavigationController.swift",
+      "kind": "StringLiteral",
+      "offset": 125,
+      "length": 29,
+      "value": "\"JoystickSDK.LandscapeNavigationController\""
     },
     {
       "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/LaunchViewController.swift",
