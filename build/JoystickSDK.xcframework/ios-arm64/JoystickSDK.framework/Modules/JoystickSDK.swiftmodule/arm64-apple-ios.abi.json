@@ -16,6 +16,23 @@
       },
       {
         "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "JoystickSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "JoystickSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -114,7 +131,7 @@
           {
             "kind": "Function",
             "name": "connect",
-            "printedName": "connect(to:from:)",
+            "printedName": "connect(to:displayId:orderId:from:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -129,34 +146,34 @@
               },
               {
                 "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
                 "name": "UIViewController",
                 "printedName": "UIKit.UIViewController",
                 "usr": "c:objc(cs)UIViewController"
               }
             ],
             "declKind": "Func",
-            "usr": "s:11JoystickSDK0A0C7connect2to4fromySS_So16UIViewControllerCtF",
-            "mangledName": "$s11JoystickSDK0A0C7connect2to4fromySS_So16UIViewControllerCtF",
-            "moduleName": "JoystickSDK",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "disconnect",
-            "printedName": "disconnect()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:11JoystickSDK0A0C10disconnectyyF",
-            "mangledName": "$s11JoystickSDK0A0C10disconnectyyF",
+            "usr": "s:11JoystickSDK0A0C7connect2to9displayId05orderF04fromySS_SiSSSgSo16UIViewControllerCtF",
+            "mangledName": "$s11JoystickSDK0A0C7connect2to9displayId05orderF04fromySS_SiSSSgSo16UIViewControllerCtF",
             "moduleName": "JoystickSDK",
             "declAttributes": [
               "AccessControl"
@@ -260,8 +277,32 @@
       },
       {
         "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "JoystickSDK"
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "JoystickSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "JoystickSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "JoystickSDK",
         "declAttributes": [
@@ -304,6 +345,23 @@
       },
       {
         "kind": "Import",
+        "name": "CryptoKit",
+        "printedName": "CryptoKit",
+        "declKind": "Import",
+        "moduleName": "JoystickSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "JoystickSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -329,11 +387,280 @@
         "printedName": "DeveloperToolsSupport",
         "declKind": "Import",
         "moduleName": "JoystickSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Name",
+        "printedName": "Name",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "joystickWillDisappear",
+            "printedName": "joystickWillDisappear",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Name",
+                "printedName": "Foundation.NSNotification.Name",
+                "usr": "c:@T@NSNotificationName"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So18NSNotificationNamea11JoystickSDKE21joystickWillDisappearABvpZ",
+            "mangledName": "$sSo18NSNotificationNamea11JoystickSDKE21joystickWillDisappearABvpZ",
+            "moduleName": "JoystickSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "isFromExtension": true,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Name",
+                    "printedName": "Foundation.NSNotification.Name",
+                    "usr": "c:@T@NSNotificationName"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So18NSNotificationNamea11JoystickSDKE21joystickWillDisappearABvgZ",
+                "mangledName": "$sSo18NSNotificationNamea11JoystickSDKE21joystickWillDisappearABvgZ",
+                "moduleName": "JoystickSDK",
+                "static": true,
+                "implicit": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "c:@T@NSNotificationName",
+        "moduleName": "Foundation",
+        "declAttributes": [
+          "SynthesizedProtocol",
+          "SynthesizedProtocol",
+          "SynthesizedProtocol",
+          "SynthesizedProtocol",
+          "SynthesizedProtocol",
+          "SynthesizedProtocol",
+          "Sendable"
+        ],
+        "isFromExtension": true,
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "_ObjectiveCBridgeable",
+            "printedName": "_ObjectiveCBridgeable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_ObjectiveCType",
+                "printedName": "_ObjectiveCType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSString",
+                    "printedName": "Foundation.NSString",
+                    "usr": "c:objc(cs)NSString"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s21_ObjectiveCBridgeableP",
+            "mangledName": "$ss21_ObjectiveCBridgeableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_SwiftNewtypeWrapper",
+            "printedName": "_SwiftNewtypeWrapper",
+            "usr": "s:s20_SwiftNewtypeWrapperP",
+            "mangledName": "$ss20_SwiftNewtypeWrapperP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_HasCustomAnyHashableRepresentation",
+            "printedName": "_HasCustomAnyHashableRepresentation",
+            "usr": "s:s35_HasCustomAnyHashableRepresentationP",
+            "mangledName": "$ss35_HasCustomAnyHashableRepresentationP"
+          }
+        ]
       }
     ],
     "json_format_version": 8
   },
   "ConstValues": [
+    {
+      "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/AlertViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 222,
+      "length": 1,
+      "value": "9"
+    },
+    {
+      "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/AlertViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 276,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/AlertViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 328,
+      "length": 3,
+      "value": "365"
+    },
+    {
+      "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/AlertViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 341,
+      "length": 3,
+      "value": "174"
+    },
+    {
+      "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/AlertViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 393,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/AlertViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 444,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/AlertViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 502,
+      "length": 2,
+      "value": "40"
+    },
+    {
+      "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/AlertViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 555,
+      "length": 2,
+      "value": "49"
+    },
+    {
+      "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/AlertViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 597,
+      "length": 8,
+      "value": "\"确认\""
+    },
+    {
+      "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/AlertViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 647,
+      "length": 8,
+      "value": "\"取消\""
+    },
+    {
+      "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/AlertViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1062,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/AlertViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1186,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/AlertViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 1337,
+      "length": 4,
+      "value": "0.05"
+    },
+    {
+      "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/AlertViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1571,
+      "length": 6,
+      "value": "\"sure\""
+    },
+    {
+      "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/AlertViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1655,
+      "length": 2,
+      "value": "18"
+    },
+    {
+      "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/AlertViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2073,
+      "length": 2,
+      "value": "18"
+    },
+    {
+      "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/AlertViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 130,
+      "length": 19,
+      "value": "\"JoystickSDK.AlertViewController\""
+    },
     {
       "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/Image.swift",
       "kind": "StringLiteral",
@@ -791,22 +1118,43 @@
     },
     {
       "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/JoystickViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1765,
+      "length": 119,
+      "value": "\"如果断开连接，您将失去对当前角色的控制，需重新扫二维码进行连接。是否确认断开？\""
+    },
+    {
+      "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/JoystickViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1918,
+      "length": 113,
+      "value": "\"如果退出游戏，当前游戏进度无法保存，且所有玩家都会退出游戏，是否确认退出？\""
+    },
+    {
+      "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/JoystickViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2077,
+      "length": 77,
+      "value": "\"当前连接已中断，该页面即将关闭，请重新扫描二维码。\""
+    },
+    {
+      "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/JoystickViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2312,
+      "offset": 2740,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/JoystickViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3299,
+      "offset": 3727,
       "length": 6,
       "value": "\"text\""
     },
     {
       "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/JoystickViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 3354,
+      "offset": 3782,
       "length": 2,
       "value": "14"
     },
@@ -988,6 +1336,13 @@
     {
       "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/KeyCode.swift",
       "kind": "IntegerLiteral",
+      "offset": 478,
+      "length": 2,
+      "value": "45"
+    },
+    {
+      "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/KeyCode.swift",
+      "kind": "IntegerLiteral",
       "offset": 290,
       "length": 2,
       "value": "23"
@@ -1044,6 +1399,13 @@
     {
       "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/KeyCode.swift",
       "kind": "IntegerLiteral",
+      "offset": 478,
+      "length": 2,
+      "value": "45"
+    },
+    {
+      "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/KeyCode.swift",
+      "kind": "IntegerLiteral",
       "offset": 290,
       "length": 2,
       "value": "23"
@@ -1100,287 +1462,385 @@
     {
       "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/KeyCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 501,
+      "offset": 478,
+      "length": 2,
+      "value": "45"
+    },
+    {
+      "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/KeyCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 529,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/KeyCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 522,
+      "offset": 550,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/KeyCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 501,
+      "offset": 529,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/KeyCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 522,
+      "offset": 550,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/KeyCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 501,
+      "offset": 529,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/KeyCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 522,
+      "offset": 550,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/LaunchViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 238,
+      "offset": 253,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/LaunchViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 251,
+      "offset": 266,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/LaunchViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 314,
+      "offset": 329,
       "length": 2,
       "value": "21"
     },
     {
       "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/LaunchViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 372,
+      "offset": 387,
       "length": 2,
       "value": "21"
     },
     {
       "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/LaunchViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 431,
+      "offset": 446,
       "length": 2,
       "value": "85"
     },
     {
       "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/LaunchViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 443,
+      "offset": 458,
       "length": 2,
       "value": "46"
     },
     {
       "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/LaunchViewController.swift",
       "kind": "StringLiteral",
-      "offset": 487,
+      "offset": 502,
       "length": 67,
       "value": "\"街机版合金弹头，进入游戏使用Coin可复活角色哦~\""
     },
     {
       "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/LaunchViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 600,
+      "offset": 615,
       "length": 2,
       "value": "24"
     },
     {
       "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/LaunchViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1555,
+      "offset": 670,
+      "length": 74,
+      "value": "\"连接失败，该页面即将关闭，请重新扫描二维码连接。\""
+    },
+    {
+      "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/LaunchViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 784,
+      "length": 119,
+      "value": "\"如果断开连接，您将失去对当前角色的控制，需重新扫二维码进行连接。是否确认断开？\""
+    },
+    {
+      "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/LaunchViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1856,
       "length": 6,
       "value": "\"text\""
     },
     {
       "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/LaunchViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1610,
+      "offset": 1911,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/LaunchViewController.swift",
       "kind": "StringLiteral",
-      "offset": 116,
+      "offset": 131,
       "length": 20,
       "value": "\"JoystickSDK.LaunchViewController\""
     },
     {
+      "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/NotificationName.swift",
+      "kind": "StringLiteral",
+      "offset": 294,
+      "length": 23,
+      "value": "\"JoystickWillDisappear\""
+    },
+    {
       "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/SocketService.swift",
       "kind": "IntegerLiteral",
-      "offset": 427,
+      "offset": 674,
       "length": 5,
       "value": "15273"
     },
     {
       "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/SocketService.swift",
       "kind": "IntegerLiteral",
-      "offset": 499,
+      "offset": 746,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/SocketService.swift",
       "kind": "IntegerLiteral",
-      "offset": 567,
+      "offset": 814,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/SocketService.swift",
       "kind": "IntegerLiteral",
-      "offset": 620,
+      "offset": 867,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/SocketService.swift",
       "kind": "IntegerLiteral",
-      "offset": 681,
+      "offset": 928,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/SocketService.swift",
       "kind": "IntegerLiteral",
-      "offset": 718,
+      "offset": 965,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/SocketService.swift",
       "kind": "IntegerLiteral",
-      "offset": 1112,
+      "offset": 1039,
+      "length": 3,
+      "value": "200"
+    },
+    {
+      "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/SocketService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1094,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/SocketService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1039,
+      "length": 3,
+      "value": "200"
+    },
+    {
+      "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/SocketService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1094,
+      "length": 1,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/SocketService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1039,
+      "length": 3,
+      "value": "200"
+    },
+    {
+      "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/SocketService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1094,
+      "length": 1,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/SocketService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1499,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/SocketService.swift",
       "kind": "StringLiteral",
-      "offset": 1150,
+      "offset": 1537,
       "length": 2,
       "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/SocketService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1578,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/SocketService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1617,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/UserDefaults+UUID.swift",
+      "kind": "StringLiteral",
+      "offset": 186,
+      "length": 18,
+      "value": "\"JoystickSDK-UUID\""
     },
     {
       "filePath": "\/Users\/edy\/Library\/Developer\/Xcode\/DerivedData\/JoystickSDK-dlglzvzpdwmrojapezrqeddxkeuh\/Build\/Intermediates.noindex\/ArchiveIntermediates\/JoystickSDK\/IntermediateBuildFilesPath\/JoystickSDK.build\/Release-iphoneos\/JoystickSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 616,
       "length": 6,
+      "value": "\"sure\""
+    },
+    {
+      "filePath": "\/Users\/edy\/Library\/Developer\/Xcode\/DerivedData\/JoystickSDK-dlglzvzpdwmrojapezrqeddxkeuh\/Build\/Intermediates.noindex\/ArchiveIntermediates\/JoystickSDK\/IntermediateBuildFilesPath\/JoystickSDK.build\/Release-iphoneos\/JoystickSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 740,
+      "length": 6,
       "value": "\"text\""
     },
     {
       "filePath": "\/Users\/edy\/Library\/Developer\/Xcode\/DerivedData\/JoystickSDK-dlglzvzpdwmrojapezrqeddxkeuh\/Build\/Intermediates.noindex\/ArchiveIntermediates\/JoystickSDK\/IntermediateBuildFilesPath\/JoystickSDK.build\/Release-iphoneos\/JoystickSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 839,
+      "offset": 963,
       "length": 3,
       "value": "\"a\""
     },
     {
       "filePath": "\/Users\/edy\/Library\/Developer\/Xcode\/DerivedData\/JoystickSDK-dlglzvzpdwmrojapezrqeddxkeuh\/Build\/Intermediates.noindex\/ArchiveIntermediates\/JoystickSDK\/IntermediateBuildFilesPath\/JoystickSDK.build\/Release-iphoneos\/JoystickSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 954,
+      "offset": 1078,
       "length": 3,
       "value": "\"b\""
     },
     {
       "filePath": "\/Users\/edy\/Library\/Developer\/Xcode\/DerivedData\/JoystickSDK-dlglzvzpdwmrojapezrqeddxkeuh\/Build\/Intermediates.noindex\/ArchiveIntermediates\/JoystickSDK\/IntermediateBuildFilesPath\/JoystickSDK.build\/Release-iphoneos\/JoystickSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1093,
+      "offset": 1217,
       "length": 18,
       "value": "\"background-image\""
     },
     {
       "filePath": "\/Users\/edy\/Library\/Developer\/Xcode\/DerivedData\/JoystickSDK-dlglzvzpdwmrojapezrqeddxkeuh\/Build\/Intermediates.noindex\/ArchiveIntermediates\/JoystickSDK\/IntermediateBuildFilesPath\/JoystickSDK.build\/Release-iphoneos\/JoystickSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1223,
+      "offset": 1347,
       "length": 3,
       "value": "\"c\""
     },
     {
       "filePath": "\/Users\/edy\/Library\/Developer\/Xcode\/DerivedData\/JoystickSDK-dlglzvzpdwmrojapezrqeddxkeuh\/Build\/Intermediates.noindex\/ArchiveIntermediates\/JoystickSDK\/IntermediateBuildFilesPath\/JoystickSDK.build\/Release-iphoneos\/JoystickSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1344,
+      "offset": 1468,
       "length": 6,
       "value": "\"coin\""
     },
     {
       "filePath": "\/Users\/edy\/Library\/Developer\/Xcode\/DerivedData\/JoystickSDK-dlglzvzpdwmrojapezrqeddxkeuh\/Build\/Intermediates.noindex\/ArchiveIntermediates\/JoystickSDK\/IntermediateBuildFilesPath\/JoystickSDK.build\/Release-iphoneos\/JoystickSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1478,
+      "offset": 1602,
       "length": 11,
       "value": "\"connected\""
     },
     {
       "filePath": "\/Users\/edy\/Library\/Developer\/Xcode\/DerivedData\/JoystickSDK-dlglzvzpdwmrojapezrqeddxkeuh\/Build\/Intermediates.noindex\/ArchiveIntermediates\/JoystickSDK\/IntermediateBuildFilesPath\/JoystickSDK.build\/Release-iphoneos\/JoystickSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1619,
+      "offset": 1743,
       "length": 12,
       "value": "\"disconnect\""
     },
     {
       "filePath": "\/Users\/edy\/Library\/Developer\/Xcode\/DerivedData\/JoystickSDK-dlglzvzpdwmrojapezrqeddxkeuh\/Build\/Intermediates.noindex\/ArchiveIntermediates\/JoystickSDK\/IntermediateBuildFilesPath\/JoystickSDK.build\/Release-iphoneos\/JoystickSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1749,
+      "offset": 1873,
       "length": 6,
       "value": "\"exit\""
     },
     {
       "filePath": "\/Users\/edy\/Library\/Developer\/Xcode\/DerivedData\/JoystickSDK-dlglzvzpdwmrojapezrqeddxkeuh\/Build\/Intermediates.noindex\/ArchiveIntermediates\/JoystickSDK\/IntermediateBuildFilesPath\/JoystickSDK.build\/Release-iphoneos\/JoystickSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1873,
+      "offset": 1997,
       "length": 6,
       "value": "\"knob\""
     },
     {
       "filePath": "\/Users\/edy\/Library\/Developer\/Xcode\/DerivedData\/JoystickSDK-dlglzvzpdwmrojapezrqeddxkeuh\/Build\/Intermediates.noindex\/ArchiveIntermediates\/JoystickSDK\/IntermediateBuildFilesPath\/JoystickSDK.build\/Release-iphoneos\/JoystickSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 2018,
+      "offset": 2142,
       "length": 17,
       "value": "\"knob-background\""
     },
     {
       "filePath": "\/Users\/edy\/Library\/Developer\/Xcode\/DerivedData\/JoystickSDK-dlglzvzpdwmrojapezrqeddxkeuh\/Build\/Intermediates.noindex\/ArchiveIntermediates\/JoystickSDK\/IntermediateBuildFilesPath\/JoystickSDK.build\/Release-iphoneos\/JoystickSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 2153,
+      "offset": 2277,
       "length": 6,
       "value": "\"logo\""
     },
     {
       "filePath": "\/Users\/edy\/Library\/Developer\/Xcode\/DerivedData\/JoystickSDK-dlglzvzpdwmrojapezrqeddxkeuh\/Build\/Intermediates.noindex\/ArchiveIntermediates\/JoystickSDK\/IntermediateBuildFilesPath\/JoystickSDK.build\/Release-iphoneos\/JoystickSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 2310,
+      "offset": 2434,
       "length": 23,
       "value": "\"networking-disconnect\""
     },
     {
       "filePath": "\/Users\/edy\/Library\/Developer\/Xcode\/DerivedData\/JoystickSDK-dlglzvzpdwmrojapezrqeddxkeuh\/Build\/Intermediates.noindex\/ArchiveIntermediates\/JoystickSDK\/IntermediateBuildFilesPath\/JoystickSDK.build\/Release-iphoneos\/JoystickSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 2453,
+      "offset": 2577,
       "length": 7,
       "value": "\"pause\""
     },
     {
       "filePath": "\/Users\/edy\/Library\/Developer\/Xcode\/DerivedData\/JoystickSDK-dlglzvzpdwmrojapezrqeddxkeuh\/Build\/Intermediates.noindex\/ArchiveIntermediates\/JoystickSDK\/IntermediateBuildFilesPath\/JoystickSDK.build\/Release-iphoneos\/JoystickSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 2582,
+      "offset": 2706,
       "length": 8,
       "value": "\"resume\""
     },
     {
       "filePath": "\/Users\/edy\/Library\/Developer\/Xcode\/DerivedData\/JoystickSDK-dlglzvzpdwmrojapezrqeddxkeuh\/Build\/Intermediates.noindex\/ArchiveIntermediates\/JoystickSDK\/IntermediateBuildFilesPath\/JoystickSDK.build\/Release-iphoneos\/JoystickSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 2719,
+      "offset": 2843,
       "length": 12,
       "value": "\"start-game\""
     }
