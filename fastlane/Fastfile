@@ -33,7 +33,7 @@ platform :ios do
     pod_push(path: "JoystickSDK.podspec", allow_warnings: true, verbose: true)
   end
 
-  private_lane :add_tag do
+  lane :add_tag do
     UI.message("local add git tag #{version}")
     add_git_tag(
       tag: "#{version}"
@@ -42,7 +42,7 @@ platform :ios do
     `git push origin #{version}`
   end
 
-  private_lane :update_podspec_version do
+  lane :update_podspec_version do
     UI.message("Setting podspec version to #{version}")
     # 动态更新 podspec 文件
     content = File.read(podspec_file)

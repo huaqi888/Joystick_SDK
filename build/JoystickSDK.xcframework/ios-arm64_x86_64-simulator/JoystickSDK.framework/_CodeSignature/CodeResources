@@ -14,15 +14,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		UJY2H6vAK4jqVnixhfGbrVOz2ns=
+		bEpReDK395u4sbRSjRg2MZZJ9sg=
 		</data>
 		<key>Modules/JoystickSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		KIAh/7QytjF1rCgt1Ev24BcVsa0=
+		ZpQTFJ2jDXDY48H2ZCOyHfXXOzg=
 		</data>
 		<key>Modules/JoystickSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		/gT75ndpihbGBMhiTzdtB9ZXzuc=
+		C5ziLwmEFuxP35tHeSWblTVJ8sU=
 		</data>
 		<key>Modules/JoystickSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -30,19 +30,19 @@
 		</data>
 		<key>Modules/JoystickSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		/gT75ndpihbGBMhiTzdtB9ZXzuc=
+		C5ziLwmEFuxP35tHeSWblTVJ8sU=
 		</data>
 		<key>Modules/JoystickSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Sx9FxOpGAMGsZBaOLIW+Glq03+w=
+		/X6/y5cbLl7xjrnusTUUleqYvKk=
 		</data>
 		<key>Modules/JoystickSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		KIAh/7QytjF1rCgt1Ev24BcVsa0=
+		ZpQTFJ2jDXDY48H2ZCOyHfXXOzg=
 		</data>
 		<key>Modules/JoystickSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		Py0/4NVE+VTMggIG/V+NEq/T/tc=
+		MJfOQ2uMdzRCGl1fM3qE12DkDww=
 		</data>
 		<key>Modules/JoystickSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -50,16 +50,34 @@
 		</data>
 		<key>Modules/JoystickSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		Py0/4NVE+VTMggIG/V+NEq/T/tc=
+		MJfOQ2uMdzRCGl1fM3qE12DkDww=
 		</data>
 		<key>Modules/JoystickSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		eFVTJN6y5Fv2zQNt9P1s5nJnotc=
+		RHC7AEWyR2PPA5pDgHJD6vONuEY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		3FuNT8oifoLwSmDNNVdquR9oG5E=
 		</data>
+		<key>en.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			gdW1SBPN/vJGxOFtVU7GjSfLC6g=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>zh-CN.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			GXbZ7TuKEcKCZNRxqdFtpCdj4Dc=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
 	</dict>
 	<key>files2</key>
 	<dict>
@@ -81,14 +99,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			DDI7Lc9LFIliXWDfOrQxt7H/s4gV/VcUYu49sZs6SRM=
+			YrW88qLOJDOa2KwEd4otL4kK7UzWCVYqCth2d/eF+mY=
 			</data>
 		</dict>
 		<key>Modules/JoystickSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			FGCD2E0q5KKv7Cp5O+ToNMeaZhWffIGX+8GS7H0GAnI=
+			jNzIl4Sr5isioyfgjisllnQmtChf8fo0ceQepvGQ7z0=
 			</data>
 		</dict>
 		<key>Modules/JoystickSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -102,28 +120,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			FGCD2E0q5KKv7Cp5O+ToNMeaZhWffIGX+8GS7H0GAnI=
+			jNzIl4Sr5isioyfgjisllnQmtChf8fo0ceQepvGQ7z0=
 			</data>
 		</dict>
 		<key>Modules/JoystickSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5WMTSXUFgsiUnX+NA60NgSxMqvNRI0T8me0YfsF14sM=
+			dw3Y3Ht9S2LdspdTmTe/K+G/eyENqXu3lx6am5HEqKo=
 			</data>
 		</dict>
 		<key>Modules/JoystickSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DDI7Lc9LFIliXWDfOrQxt7H/s4gV/VcUYu49sZs6SRM=
+			YrW88qLOJDOa2KwEd4otL4kK7UzWCVYqCth2d/eF+mY=
 			</data>
 		</dict>
 		<key>Modules/JoystickSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9Typ81z/WyUn5eVqjnM4zPJ49SRS5lYCrZCK9dY960c=
+			AhayUgFINoxjAAAq6MhpfHRAY6OMa9muClpnX7uREE4=
 			</data>
 		</dict>
 		<key>Modules/JoystickSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -137,14 +155,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			9Typ81z/WyUn5eVqjnM4zPJ49SRS5lYCrZCK9dY960c=
+			AhayUgFINoxjAAAq6MhpfHRAY6OMa9muClpnX7uREE4=
 			</data>
 		</dict>
 		<key>Modules/JoystickSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3xtvrqNULKxmli+6nGPvS3UUTt7G4ABf1A126pRvuKE=
+			IVCVvVDgqdr0Uzcq6eNLEnsdW8AFuA3sCBzSb3UyesU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -153,6 +171,24 @@
 			<data>
 			bWQf6ORbZ/nLp7cX8vb/3UzP5SzEZIKKm/ttf+NOSwg=
 			</data>
+		</dict>
+		<key>en.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Q5B/EgLzzMZRdlust41RTYq0Uo3M/y0fqBNmH5+PKlU=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>zh-CN.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			0k5JHtOoBDtGJvNf1JovAARqa+/EogBUc/xEJVH52s4=
+			</data>
+			<key>optional</key>
+			<true/>
 		</dict>
 	</dict>
 	<key>rules</key>
