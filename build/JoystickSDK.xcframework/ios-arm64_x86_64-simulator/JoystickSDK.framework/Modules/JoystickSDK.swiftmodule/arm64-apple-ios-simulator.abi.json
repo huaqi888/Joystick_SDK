@@ -586,84 +586,84 @@
     {
       "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/AlertViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 328,
+      "offset": 343,
       "length": 3,
       "value": "365"
     },
     {
       "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/AlertViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 341,
-      "length": 3,
-      "value": "174"
-    },
-    {
-      "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/AlertViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 393,
+      "offset": 394,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/AlertViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 444,
+      "offset": 445,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/AlertViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 502,
+      "offset": 503,
       "length": 2,
       "value": "40"
     },
     {
       "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/AlertViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 555,
+      "offset": 553,
+      "length": 2,
+      "value": "40"
+    },
+    {
+      "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/AlertViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 606,
       "length": 2,
       "value": "49"
     },
     {
       "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/AlertViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1131,
+      "offset": 1182,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/AlertViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1255,
+      "offset": 1306,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/AlertViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 1406,
+      "offset": 1457,
       "length": 4,
       "value": "0.05"
     },
     {
       "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/AlertViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1635,
+      "offset": 1686,
       "length": 6,
       "value": "\"sure\""
     },
     {
       "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/AlertViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1719,
+      "offset": 1770,
       "length": 2,
       "value": "18"
     },
     {
       "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/AlertViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2137,
+      "offset": 2188,
       "length": 2,
       "value": "18"
     },
@@ -1022,7 +1022,7 @@
       "kind": "IntegerLiteral",
       "offset": 1192,
       "length": 2,
-      "value": "65"
+      "value": "35"
     },
     {
       "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/JoystickViewController.swift",
@@ -1139,42 +1139,42 @@
     {
       "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/JoystickViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 3166,
+      "offset": 3175,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/JoystickViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3434,
+      "offset": 3443,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/JoystickViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 3665,
+      "offset": 3674,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/JoystickViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3718,
+      "offset": 3727,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/JoystickViewController.swift",
       "kind": "StringLiteral",
-      "offset": 4930,
+      "offset": 4940,
       "length": 6,
       "value": "\"text\""
     },
     {
       "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/JoystickViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 4985,
+      "offset": 4995,
       "length": 2,
       "value": "14"
     },
