@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "JoystickSDK",
+    "printedName": "JoystickSDK",
     "children": [
       {
         "kind": "Import",
@@ -188,7 +188,23 @@
         "declAttributes": [
           "AccessControl"
         ],
-        "hasMissingDesignatedInitializers": true
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -318,6 +334,13 @@
       },
       {
         "kind": "Import",
+        "name": "Network",
+        "printedName": "Network",
+        "declKind": "Import",
+        "moduleName": "JoystickSDK"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -374,6 +397,13 @@
         "kind": "Import",
         "name": "CryptoKit",
         "printedName": "CryptoKit",
+        "declKind": "Import",
+        "moduleName": "JoystickSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Network",
+        "printedName": "Network",
         "declKind": "Import",
         "moduleName": "JoystickSDK"
       },
@@ -484,6 +514,20 @@
         "isFromExtension": true,
         "isExternal": true,
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "_ObjectiveCBridgeable",
@@ -669,115 +713,10 @@
     },
     {
       "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/AlertViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 130,
-      "length": 19,
-      "value": "\"JoystickSDK.AlertViewController\""
-    },
-    {
-      "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/Image.swift",
-      "kind": "StringLiteral",
-      "offset": 161,
-      "length": 18,
-      "value": "\"background-image\""
-    },
-    {
-      "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/Image.swift",
-      "kind": "StringLiteral",
-      "offset": 206,
-      "length": 17,
-      "value": "\"knob-background\""
-    },
-    {
-      "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/Image.swift",
-      "kind": "StringLiteral",
-      "offset": 240,
-      "length": 6,
-      "value": "\"knob\""
-    },
-    {
-      "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/Image.swift",
-      "kind": "StringLiteral",
-      "offset": 263,
-      "length": 6,
-      "value": "\"coin\""
-    },
-    {
-      "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/Image.swift",
-      "kind": "StringLiteral",
-      "offset": 288,
-      "length": 8,
-      "value": "\"resume\""
-    },
-    {
-      "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/Image.swift",
-      "kind": "StringLiteral",
-      "offset": 314,
-      "length": 7,
-      "value": "\"pause\""
-    },
-    {
-      "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/Image.swift",
-      "kind": "StringLiteral",
-      "offset": 335,
-      "length": 3,
-      "value": "\"a\""
-    },
-    {
-      "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/Image.swift",
-      "kind": "StringLiteral",
-      "offset": 352,
-      "length": 3,
-      "value": "\"b\""
-    },
-    {
-      "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/Image.swift",
-      "kind": "StringLiteral",
-      "offset": 369,
-      "length": 3,
-      "value": "\"c\""
-    },
-    {
-      "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/Image.swift",
-      "kind": "StringLiteral",
-      "offset": 394,
-      "length": 11,
-      "value": "\"connected\""
-    },
-    {
-      "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/Image.swift",
-      "kind": "StringLiteral",
-      "offset": 428,
-      "length": 12,
-      "value": "\"disconnect\""
-    },
-    {
-      "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/Image.swift",
-      "kind": "StringLiteral",
-      "offset": 457,
-      "length": 6,
-      "value": "\"logo\""
-    },
-    {
-      "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/Image.swift",
-      "kind": "StringLiteral",
-      "offset": 485,
-      "length": 12,
-      "value": "\"start-game\""
-    },
-    {
-      "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/Image.swift",
-      "kind": "StringLiteral",
-      "offset": 530,
-      "length": 23,
-      "value": "\"networking-disconnect\""
-    },
-    {
-      "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/Image.swift",
-      "kind": "StringLiteral",
-      "offset": 570,
-      "length": 6,
-      "value": "\"exit\""
+      "kind": "BooleanLiteral",
+      "offset": 2940,
+      "length": 4,
+      "value": "true"
     },
     {
       "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/Image.swift",
@@ -1180,10 +1119,10 @@
     },
     {
       "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/JoystickViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 153,
-      "length": 22,
-      "value": "\"JoystickSDK.JoystickViewController\""
+      "kind": "BooleanLiteral",
+      "offset": 7353,
+      "length": 4,
+      "value": "true"
     },
     {
       "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/JoystickViewModel.swift",
@@ -1230,62 +1169,6 @@
     {
       "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/KeyCode.swift",
       "kind": "IntegerLiteral",
-      "offset": 166,
-      "length": 2,
-      "value": "11"
-    },
-    {
-      "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/KeyCode.swift",
-      "kind": "IntegerLiteral",
-      "offset": 189,
-      "length": 2,
-      "value": "12"
-    },
-    {
-      "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/KeyCode.swift",
-      "kind": "IntegerLiteral",
-      "offset": 212,
-      "length": 2,
-      "value": "13"
-    },
-    {
-      "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/KeyCode.swift",
-      "kind": "IntegerLiteral",
-      "offset": 236,
-      "length": 2,
-      "value": "14"
-    },
-    {
-      "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/KeyCode.swift",
-      "kind": "IntegerLiteral",
-      "offset": 166,
-      "length": 2,
-      "value": "11"
-    },
-    {
-      "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/KeyCode.swift",
-      "kind": "IntegerLiteral",
-      "offset": 189,
-      "length": 2,
-      "value": "12"
-    },
-    {
-      "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/KeyCode.swift",
-      "kind": "IntegerLiteral",
-      "offset": 212,
-      "length": 2,
-      "value": "13"
-    },
-    {
-      "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/KeyCode.swift",
-      "kind": "IntegerLiteral",
-      "offset": 236,
-      "length": 2,
-      "value": "14"
-    },
-    {
-      "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/KeyCode.swift",
-      "kind": "IntegerLiteral",
       "offset": 290,
       "length": 2,
       "value": "23"
@@ -1345,160 +1228,6 @@
       "offset": 478,
       "length": 2,
       "value": "45"
-    },
-    {
-      "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/KeyCode.swift",
-      "kind": "IntegerLiteral",
-      "offset": 290,
-      "length": 2,
-      "value": "23"
-    },
-    {
-      "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/KeyCode.swift",
-      "kind": "IntegerLiteral",
-      "offset": 310,
-      "length": 2,
-      "value": "24"
-    },
-    {
-      "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/KeyCode.swift",
-      "kind": "IntegerLiteral",
-      "offset": 330,
-      "length": 2,
-      "value": "21"
-    },
-    {
-      "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/KeyCode.swift",
-      "kind": "IntegerLiteral",
-      "offset": 354,
-      "length": 2,
-      "value": "31"
-    },
-    {
-      "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/KeyCode.swift",
-      "kind": "IntegerLiteral",
-      "offset": 379,
-      "length": 2,
-      "value": "32"
-    },
-    {
-      "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/KeyCode.swift",
-      "kind": "IntegerLiteral",
-      "offset": 402,
-      "length": 2,
-      "value": "42"
-    },
-    {
-      "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/KeyCode.swift",
-      "kind": "IntegerLiteral",
-      "offset": 427,
-      "length": 2,
-      "value": "43"
-    },
-    {
-      "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/KeyCode.swift",
-      "kind": "IntegerLiteral",
-      "offset": 450,
-      "length": 2,
-      "value": "44"
-    },
-    {
-      "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/KeyCode.swift",
-      "kind": "IntegerLiteral",
-      "offset": 478,
-      "length": 2,
-      "value": "45"
-    },
-    {
-      "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/KeyCode.swift",
-      "kind": "IntegerLiteral",
-      "offset": 290,
-      "length": 2,
-      "value": "23"
-    },
-    {
-      "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/KeyCode.swift",
-      "kind": "IntegerLiteral",
-      "offset": 310,
-      "length": 2,
-      "value": "24"
-    },
-    {
-      "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/KeyCode.swift",
-      "kind": "IntegerLiteral",
-      "offset": 330,
-      "length": 2,
-      "value": "21"
-    },
-    {
-      "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/KeyCode.swift",
-      "kind": "IntegerLiteral",
-      "offset": 354,
-      "length": 2,
-      "value": "31"
-    },
-    {
-      "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/KeyCode.swift",
-      "kind": "IntegerLiteral",
-      "offset": 379,
-      "length": 2,
-      "value": "32"
-    },
-    {
-      "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/KeyCode.swift",
-      "kind": "IntegerLiteral",
-      "offset": 402,
-      "length": 2,
-      "value": "42"
-    },
-    {
-      "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/KeyCode.swift",
-      "kind": "IntegerLiteral",
-      "offset": 427,
-      "length": 2,
-      "value": "43"
-    },
-    {
-      "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/KeyCode.swift",
-      "kind": "IntegerLiteral",
-      "offset": 450,
-      "length": 2,
-      "value": "44"
-    },
-    {
-      "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/KeyCode.swift",
-      "kind": "IntegerLiteral",
-      "offset": 478,
-      "length": 2,
-      "value": "45"
-    },
-    {
-      "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/KeyCode.swift",
-      "kind": "IntegerLiteral",
-      "offset": 529,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/KeyCode.swift",
-      "kind": "IntegerLiteral",
-      "offset": 550,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/KeyCode.swift",
-      "kind": "IntegerLiteral",
-      "offset": 529,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/KeyCode.swift",
-      "kind": "IntegerLiteral",
-      "offset": 550,
-      "length": 1,
-      "value": "1"
     },
     {
       "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/KeyCode.swift",
@@ -1516,87 +1245,87 @@
     },
     {
       "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/LandscapeNavigationController.swift",
-      "kind": "StringLiteral",
-      "offset": 125,
-      "length": 29,
-      "value": "\"JoystickSDK.LandscapeNavigationController\""
-    },
-    {
-      "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/LandscapeNavigationController.swift",
-      "kind": "StringLiteral",
-      "offset": 125,
-      "length": 29,
-      "value": "\"JoystickSDK.LandscapeNavigationController\""
+      "kind": "BooleanLiteral",
+      "offset": 519,
+      "length": 4,
+      "value": "true"
     },
     {
       "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/LaunchViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 253,
+      "offset": 254,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/LaunchViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 266,
+      "offset": 267,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/LaunchViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 329,
+      "offset": 330,
       "length": 2,
       "value": "21"
     },
     {
       "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/LaunchViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 387,
+      "offset": 388,
       "length": 2,
       "value": "21"
     },
     {
       "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/LaunchViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 446,
+      "offset": 447,
       "length": 2,
       "value": "85"
     },
     {
       "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/LaunchViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 458,
+      "offset": 459,
       "length": 2,
       "value": "46"
     },
     {
       "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/LaunchViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 507,
+      "offset": 508,
       "length": 2,
       "value": "24"
     },
     {
       "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/LaunchViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1457,
+      "offset": 1458,
       "length": 6,
       "value": "\"text\""
     },
     {
       "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/LaunchViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1512,
+      "offset": 1513,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/LaunchViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 131,
-      "length": 20,
-      "value": "\"JoystickSDK.LaunchViewController\""
+      "kind": "BooleanLiteral",
+      "offset": 2345,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/LaunchViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3864,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/LocalizableStrings.swift",
@@ -1711,118 +1440,6 @@
       "value": "\"exit_when_disconnect\""
     },
     {
-      "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/LocalizableStrings.swift",
-      "kind": "StringLiteral",
-      "offset": 168,
-      "length": 12,
-      "value": "\"start_game\""
-    },
-    {
-      "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/LocalizableStrings.swift",
-      "kind": "StringLiteral",
-      "offset": 206,
-      "length": 17,
-      "value": "\"start_game_tips\""
-    },
-    {
-      "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/LocalizableStrings.swift",
-      "kind": "StringLiteral",
-      "offset": 250,
-      "length": 17,
-      "value": "\"connect_success\""
-    },
-    {
-      "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/LocalizableStrings.swift",
-      "kind": "StringLiteral",
-      "offset": 293,
-      "length": 16,
-      "value": "\"connect_failed\""
-    },
-    {
-      "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/LocalizableStrings.swift",
-      "kind": "StringLiteral",
-      "offset": 341,
-      "length": 23,
-      "value": "\"device_limit_exceeded\""
-    },
-    {
-      "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/LocalizableStrings.swift",
-      "kind": "StringLiteral",
-      "offset": 394,
-      "length": 22,
-      "value": "\"return_for_game_exit\""
-    },
-    {
-      "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/LocalizableStrings.swift",
-      "kind": "StringLiteral",
-      "offset": 451,
-      "length": 27,
-      "value": "\"return_for_reconnect_fail\""
-    },
-    {
-      "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/LocalizableStrings.swift",
-      "kind": "StringLiteral",
-      "offset": 504,
-      "length": 16,
-      "value": "\"reconnect_tips\""
-    },
-    {
-      "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/LocalizableStrings.swift",
-      "kind": "StringLiteral",
-      "offset": 547,
-      "length": 17,
-      "value": "\"disconnect_tips\""
-    },
-    {
-      "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/LocalizableStrings.swift",
-      "kind": "StringLiteral",
-      "offset": 589,
-      "length": 16,
-      "value": "\"exit_game_tips\""
-    },
-    {
-      "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/LocalizableStrings.swift",
-      "kind": "StringLiteral",
-      "offset": 640,
-      "length": 26,
-      "value": "\"manually_disconnect_tips\""
-    },
-    {
-      "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/LocalizableStrings.swift",
-      "kind": "StringLiteral",
-      "offset": 695,
-      "length": 20,
-      "value": "\"dialog_text_cancel\""
-    },
-    {
-      "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/LocalizableStrings.swift",
-      "kind": "StringLiteral",
-      "offset": 745,
-      "length": 21,
-      "value": "\"dialog_text_confirm\""
-    },
-    {
-      "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/LocalizableStrings.swift",
-      "kind": "StringLiteral",
-      "offset": 799,
-      "length": 25,
-      "value": "\"return_for_order_finish\""
-    },
-    {
-      "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/LocalizableStrings.swift",
-      "kind": "StringLiteral",
-      "offset": 857,
-      "length": 25,
-      "value": "\"return_for_order_cancel\""
-    },
-    {
-      "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/LocalizableStrings.swift",
-      "kind": "StringLiteral",
-      "offset": 913,
-      "length": 22,
-      "value": "\"exit_when_disconnect\""
-    },
-    {
       "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/Message.swift",
       "kind": "IntegerLiteral",
       "offset": 607,
@@ -1834,34 +1451,6 @@
       "kind": "IntegerLiteral",
       "offset": 658,
       "length": 2,
-      "value": "-1"
-    },
-    {
-      "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/Message.swift",
-      "kind": "IntegerLiteral",
-      "offset": 607,
-      "length": 3,
-      "value": "200"
-    },
-    {
-      "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/Message.swift",
-      "kind": "IntegerLiteral",
-      "offset": 658,
-      "length": 1,
-      "value": "-1"
-    },
-    {
-      "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/Message.swift",
-      "kind": "IntegerLiteral",
-      "offset": 607,
-      "length": 3,
-      "value": "200"
-    },
-    {
-      "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/Message.swift",
-      "kind": "IntegerLiteral",
-      "offset": 658,
-      "length": 1,
       "value": "-1"
     },
     {
@@ -1897,90 +1486,6 @@
       "kind": "IntegerLiteral",
       "offset": 873,
       "length": 2,
-      "value": "-3"
-    },
-    {
-      "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/Message.swift",
-      "kind": "IntegerLiteral",
-      "offset": 917,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/Message.swift",
-      "kind": "IntegerLiteral",
-      "offset": 719,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/Message.swift",
-      "kind": "IntegerLiteral",
-      "offset": 753,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/Message.swift",
-      "kind": "IntegerLiteral",
-      "offset": 785,
-      "length": 1,
-      "value": "-1"
-    },
-    {
-      "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/Message.swift",
-      "kind": "IntegerLiteral",
-      "offset": 827,
-      "length": 1,
-      "value": "-2"
-    },
-    {
-      "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/Message.swift",
-      "kind": "IntegerLiteral",
-      "offset": 873,
-      "length": 1,
-      "value": "-3"
-    },
-    {
-      "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/Message.swift",
-      "kind": "IntegerLiteral",
-      "offset": 917,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/Message.swift",
-      "kind": "IntegerLiteral",
-      "offset": 719,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/Message.swift",
-      "kind": "IntegerLiteral",
-      "offset": 753,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/Message.swift",
-      "kind": "IntegerLiteral",
-      "offset": 785,
-      "length": 1,
-      "value": "-1"
-    },
-    {
-      "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/Message.swift",
-      "kind": "IntegerLiteral",
-      "offset": 827,
-      "length": 1,
-      "value": "-2"
-    },
-    {
-      "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/Message.swift",
-      "kind": "IntegerLiteral",
-      "offset": 873,
-      "length": 1,
       "value": "-3"
     },
     {
@@ -2000,79 +1505,86 @@
     {
       "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/SocketService.swift",
       "kind": "IntegerLiteral",
-      "offset": 858,
+      "offset": 873,
       "length": 5,
       "value": "15273"
     },
     {
       "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/SocketService.swift",
       "kind": "IntegerLiteral",
-      "offset": 930,
+      "offset": 945,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/SocketService.swift",
       "kind": "IntegerLiteral",
-      "offset": 998,
+      "offset": 1013,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/SocketService.swift",
       "kind": "IntegerLiteral",
-      "offset": 1051,
+      "offset": 1066,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/SocketService.swift",
       "kind": "IntegerLiteral",
-      "offset": 1112,
+      "offset": 1127,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/SocketService.swift",
       "kind": "IntegerLiteral",
-      "offset": 1149,
+      "offset": 1164,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/SocketService.swift",
       "kind": "IntegerLiteral",
-      "offset": 1543,
+      "offset": 1558,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/SocketService.swift",
       "kind": "StringLiteral",
-      "offset": 1581,
+      "offset": 1596,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/SocketService.swift",
       "kind": "IntegerLiteral",
-      "offset": 1622,
+      "offset": 1637,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/SocketService.swift",
       "kind": "IntegerLiteral",
-      "offset": 1661,
+      "offset": 1676,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/SocketService.swift",
       "kind": "BooleanLiteral",
-      "offset": 2213,
+      "offset": 2228,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/SocketService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2270,
+      "length": 4,
+      "value": "true"
     },
     {
       "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/UserDefaults+UUID.swift",

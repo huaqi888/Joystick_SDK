@@ -6,55 +6,55 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		hiQfsP5h0bgswUwsnrfx3H3qWJs=
+		wakz/qzHxzpnzTQTYEkQKqqNqXA=
 		</data>
 		<key>Headers/JoystickSDK-Swift.h</key>
 		<data>
-		m5Lu6YoHin8hINwLtobl2fKRuPk=
+		qLuRSRrhyTGP6/GHttsu+rVB/CU=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		bEpReDK395u4sbRSjRg2MZZJ9sg=
+		iUg8rpaU9V2dIKh26jVcH32dKzE=
 		</data>
 		<key>Modules/JoystickSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		4iJfKcugDjJDAiAYgL20btYAkew=
+		gUqQQpqh4L/Nt4tBp2UQuruiXAs=
 		</data>
 		<key>Modules/JoystickSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		C5ziLwmEFuxP35tHeSWblTVJ8sU=
+		A6VMug7rOUZmQWYsAdJV7x4Aln4=
 		</data>
 		<key>Modules/JoystickSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		UbfwLKBl42QOkQc8a4Ho/VLMO/A=
+		rDIdA1Al2JfuIyL19WbA7hAgHWI=
 		</data>
 		<key>Modules/JoystickSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		C5ziLwmEFuxP35tHeSWblTVJ8sU=
+		A6VMug7rOUZmQWYsAdJV7x4Aln4=
 		</data>
 		<key>Modules/JoystickSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		2EIzvgHkArhg6zdaFcNcisbyfAw=
+		ELSmrZ+JelLOWJUCq52Ws38KO1Y=
 		</data>
 		<key>Modules/JoystickSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		4iJfKcugDjJDAiAYgL20btYAkew=
+		gUqQQpqh4L/Nt4tBp2UQuruiXAs=
 		</data>
 		<key>Modules/JoystickSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		MJfOQ2uMdzRCGl1fM3qE12DkDww=
+		VRwdYcHZ5kWrE2gHKTRir9hYJnE=
 		</data>
 		<key>Modules/JoystickSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		jY4JhEbbCngEFkHW8bo/hLDYkdw=
+		SWeHXQoUD3xRecjtwuRWJbpl5G0=
 		</data>
 		<key>Modules/JoystickSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		MJfOQ2uMdzRCGl1fM3qE12DkDww=
+		VRwdYcHZ5kWrE2gHKTRir9hYJnE=
 		</data>
 		<key>Modules/JoystickSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		/r+rvBY74dpOR8xSMrU1gTgpqC8=
+		FZbP8vKsjN61ycgRGH45iuihH74=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -85,84 +85,84 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			TNQjVf+iaNR6FuZ4gzyR07ZOoNYM5vcFbBRFCdg84lE=
+			fxsw4NRkhsZWlTMXcj+Ej/8m6dl7oh0DSVvBijjsqFA=
 			</data>
 		</dict>
 		<key>Headers/JoystickSDK-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RqveThv9ODlkskqdtS6v7H3/4quN7E+5j9vnN8I+LTs=
+			XNj9MTxQIp1Tnp6BFsIY+I3Np6uZocvxRAxwlMXG2Rg=
 			</data>
 		</dict>
 		<key>Modules/JoystickSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			No5g1aBQ5Z3PHxCcUp1Emjm/5sg5Kk+8mcJKz1SBOIo=
+			AbzlbtKzgrnokYVW8vlRqqTySKVTcgsNMYsO6TjP9D4=
 			</data>
 		</dict>
 		<key>Modules/JoystickSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jNzIl4Sr5isioyfgjisllnQmtChf8fo0ceQepvGQ7z0=
+			50x/Ol6JzWkcq4Xbzj1fIeQcxOQ/UKwtQe/h/RHfL/8=
 			</data>
 		</dict>
 		<key>Modules/JoystickSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			02yTbzIji5Sfrki0ufYph6cvJV0EBPdKgBSQUWmi+80=
+			lIQgYbg9agEx7cCAAM1Nfou5bKAnzI9K/kwcm5qTeyM=
 			</data>
 		</dict>
 		<key>Modules/JoystickSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jNzIl4Sr5isioyfgjisllnQmtChf8fo0ceQepvGQ7z0=
+			50x/Ol6JzWkcq4Xbzj1fIeQcxOQ/UKwtQe/h/RHfL/8=
 			</data>
 		</dict>
 		<key>Modules/JoystickSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3CwGpGULzmSoZHKDOBTWEgJu+ZTB6HMAOaUSGaCbqmY=
+			PZt8H0nUc8H9WxyXz7R9giMYLXaZJsStMbHTJEkdZaM=
 			</data>
 		</dict>
 		<key>Modules/JoystickSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			No5g1aBQ5Z3PHxCcUp1Emjm/5sg5Kk+8mcJKz1SBOIo=
+			AbzlbtKzgrnokYVW8vlRqqTySKVTcgsNMYsO6TjP9D4=
 			</data>
 		</dict>
 		<key>Modules/JoystickSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			AhayUgFINoxjAAAq6MhpfHRAY6OMa9muClpnX7uREE4=
+			eW/hVTZ029hXhCQqeAuH8pDzrI4wMkagVbpKLuTSCDU=
 			</data>
 		</dict>
 		<key>Modules/JoystickSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qIi9gUNyrJHPa1riWnsSwQG8oOnVQsnrdpvPkrVptf4=
+			nBwHt4oUqXtC7eAW40eaKK+2ujt2pdDEFHhtAD9jXRI=
 			</data>
 		</dict>
 		<key>Modules/JoystickSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			AhayUgFINoxjAAAq6MhpfHRAY6OMa9muClpnX7uREE4=
+			eW/hVTZ029hXhCQqeAuH8pDzrI4wMkagVbpKLuTSCDU=
 			</data>
 		</dict>
 		<key>Modules/JoystickSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			TCCB8C3SmFnYb1bNJTBQbkh25yek+QeRMITt2R68JfY=
+			qkjOjGXp7SlYVgKWzimQmUv/QXg/dxhCufGSvTMqxXs=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
