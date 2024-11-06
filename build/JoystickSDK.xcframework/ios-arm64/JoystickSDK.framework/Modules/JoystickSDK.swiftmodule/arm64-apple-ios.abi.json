@@ -1323,7 +1323,7 @@
     {
       "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/LaunchViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3864,
+      "offset": 3927,
       "length": 5,
       "value": "false"
     },
@@ -1539,52 +1539,66 @@
     },
     {
       "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/SocketService.swift",
+      "kind": "FloatLiteral",
+      "offset": 1193,
+      "length": 3,
+      "value": "2.8"
+    },
+    {
+      "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/SocketService.swift",
       "kind": "IntegerLiteral",
-      "offset": 1164,
+      "offset": 1231,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/SocketService.swift",
       "kind": "IntegerLiteral",
-      "offset": 1558,
+      "offset": 1689,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/SocketService.swift",
       "kind": "StringLiteral",
-      "offset": 1596,
+      "offset": 1727,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/SocketService.swift",
       "kind": "IntegerLiteral",
-      "offset": 1637,
+      "offset": 1768,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/SocketService.swift",
       "kind": "IntegerLiteral",
-      "offset": 1676,
+      "offset": 1807,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/SocketService.swift",
       "kind": "BooleanLiteral",
-      "offset": 2228,
+      "offset": 2359,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/SocketService.swift",
       "kind": "BooleanLiteral",
-      "offset": 2270,
+      "offset": 2401,
       "length": 4,
       "value": "true"
+    },
+    {
+      "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/SocketService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2442,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/edy\/Desktop\/Workspace\/JoystickSDK\/JoystickSDK\/Source\/UserDefaults+UUID.swift",

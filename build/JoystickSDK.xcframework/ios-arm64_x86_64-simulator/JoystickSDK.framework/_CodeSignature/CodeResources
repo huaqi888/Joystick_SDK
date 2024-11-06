@@ -18,7 +18,7 @@
 		</data>
 		<key>Modules/JoystickSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		gUqQQpqh4L/Nt4tBp2UQuruiXAs=
+		FHUU3L/gBL4CAvmSomP+f1eEaXs=
 		</data>
 		<key>Modules/JoystickSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/JoystickSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		ELSmrZ+JelLOWJUCq52Ws38KO1Y=
+		uQHNlQo4ScNhnBBXC2+qEiPcRn4=
 		</data>
 		<key>Modules/JoystickSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		gUqQQpqh4L/Nt4tBp2UQuruiXAs=
+		FHUU3L/gBL4CAvmSomP+f1eEaXs=
 		</data>
 		<key>Modules/JoystickSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/JoystickSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		FZbP8vKsjN61ycgRGH45iuihH74=
+		s7bs5+qQy3MMs5xQbncj7y5pdVo=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -99,7 +99,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			AbzlbtKzgrnokYVW8vlRqqTySKVTcgsNMYsO6TjP9D4=
+			C5W1wk0s9J/WwYQbzm/dN6nGMAooeOjxTW62SlTwK8M=
 			</data>
 		</dict>
 		<key>Modules/JoystickSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -127,14 +127,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			PZt8H0nUc8H9WxyXz7R9giMYLXaZJsStMbHTJEkdZaM=
+			NqDC+GEG/Uev/CXx+UJ0yTfKayYCcFs7WWe8NcEhvBk=
 			</data>
 		</dict>
 		<key>Modules/JoystickSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			AbzlbtKzgrnokYVW8vlRqqTySKVTcgsNMYsO6TjP9D4=
+			C5W1wk0s9J/WwYQbzm/dN6nGMAooeOjxTW62SlTwK8M=
 			</data>
 		</dict>
 		<key>Modules/JoystickSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -162,7 +162,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			qkjOjGXp7SlYVgKWzimQmUv/QXg/dxhCufGSvTMqxXs=
+			K8JO+kZfZnK7f6TPZu/KtdqwxzaMUftx1J/rOisJE6s=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
